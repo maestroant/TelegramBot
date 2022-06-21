@@ -12,7 +12,7 @@ namespace TelegramBot
     class Program
     {
         // Токен бота
-        static ITelegramBotClient bot = new TelegramBotClient("5574197521:AAHBrWNqlhEYRedBUvMvkG8vAeun7rMdVy4");
+        static ITelegramBotClient bot = new TelegramBotClient("<TOKEN>");
 
         // Получено сообщение
         public static async Task HandleUpdateAsync(ITelegramBotClient botClient, Update update, CancellationToken cancellationToken)
